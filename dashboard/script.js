@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const userID = localStorage.getItem('userID');
 
-
     // Function to make a POST request
     async function postData(url = '', data = {}) {
         const response = await fetch(url, {
@@ -74,4 +73,9 @@ document.addEventListener('DOMContentLoaded', function() {
             default: return 'Unknown';
         }
     }
+
+    // Add event listener to the "Reserve More Trails" button
+    document.getElementById('reserveMoreButton').addEventListener('click', () => {
+        window.location.href = '/questions';
+    });
 });

@@ -46,3 +46,19 @@ h3 {
 .schedule-card a:hover {
     text-decoration: underline;
 }
+/* Existing styles */
+
+.reserve-button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.reserve-button:hover {
+    background-color: #357abd;
+}
