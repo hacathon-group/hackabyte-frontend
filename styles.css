@@ -1,0 +1,122 @@
+/* General styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    background-color: #121212;
+}
+
+header {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #ffffff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    background-color: #ffffff;
+    color: #007bff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.main-picture {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px; /* Set a max height if needed to keep images from being too tall */
+    object-fit: cover; /* Ensures the image covers the area while maintaining aspect ratio */
+    border-radius: 10px;
+}
+
+.caption {
+    margin-top: 15px;
+    color: #e0e0e0;
+    font-size: 18px;
+}
+
+.features {
+    padding: 40px 20px;
+    background-color: #1e1e1e;
+}
+
+.features h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    flex: 1;
+    max-width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.feature-icon {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image fits the designated space while maintaining aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+footer {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+    color: #e0e0e0;
+}
+
+footer p {
+    margin: 0;
+}
